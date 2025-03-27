@@ -46,12 +46,6 @@ uv venv
 source .venv/bin/activate
 ```
 
-### On (Windows)
-```
-uv venv 
-.venv\Scripts\activate
-```
-
 ### 5. Open project in VS Code (optional but recommended)
 ```
 code .
