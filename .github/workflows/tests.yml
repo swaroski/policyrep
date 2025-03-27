@@ -3,7 +3,7 @@ name: Run Pytests
 on:
   push:
     branches:
-      - dev
+      - main
 
 jobs:
   test:
