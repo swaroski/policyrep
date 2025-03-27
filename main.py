@@ -3,10 +3,12 @@
 """
 
 import unittest
-from assignment2.fsm import FSM, S0
 from assignment1.best_threshold import best_threshold
-from assignment1.best_threshold_test import TestBestThreshold
+from assignment1.test_best_threshold import TestBestThreshold
+from assignment2.fsm import FSM, S0
 from assignment2.test_fsm import TestMod3FSM
+
+
 
 
 class PolicyRepRunner:

@@ -30,22 +30,18 @@ cd policyrep
 ```
 pip install uv  
 ```
-### 2. Initialize the project
-```
-uv init policyrep
-```
 
-### 3. Pin Python version
+### 2. Pin Python version
 ```
 uv python pin 3.13.0
 ```
 
-### 4. Create a virtual environment
+### 3. Create a virtual environment
 ```
 uv venv
 ```
 
-### 5. Activate the virtual environment (Linux/macOS)
+### 4. Activate the virtual environment (Linux/macOS)
 ```
 source .venv/bin/activate
 ```
@@ -56,7 +52,7 @@ uv venv
 .venv\Scripts\activate
 ```
 
-### 6. Open project in VS Code (optional but recommended)
+### 5. Open project in VS Code (optional but recommended)
 ```
 code .
 ```
@@ -70,8 +66,8 @@ uv run main.py
 ```
 You'll be prompted to select which assignment to run or run test cases interactively.
 
-## Running test cases
+## Running Inidividual Test Cases
 ```
-uv run test_fsm.py
-uv run test_assignment1.py
+uv run -m assignment2.test_fsm
+uv run -m assignment1.test_best_threshold
 ``` 
