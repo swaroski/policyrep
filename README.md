@@ -1,5 +1,5 @@
 
-![Pytest](https://github.com/swaroski/policyrep/actions/workflows/pytest.yml/badge.svg)
+![Pytest](https://github.com/swaroski/policyrep/actions/workflows/tests.yml/badge.svg)
 
 
 
