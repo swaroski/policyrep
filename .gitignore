@@ -50,8 +50,7 @@ var/
 Pipfile.lock
 
 # poetry
-poetry.lock
-pyproject.toml
+
 
 # PDM
 __pypackages__/

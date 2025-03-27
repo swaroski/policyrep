@@ -1,4 +1,7 @@
 
+![Pytest](https://github.com/swaroski/policyrep/actions/workflows/tests.yml/badge.svg)
+
+
 
 # 🧠 PolicyRep Assignment Projects
 
@@ -65,3 +68,5 @@ You'll be prompted to select which assignment to run or run test cases interacti
 uv run -m assignment2.test_fsm
 uv run -m assignment1.test_best_threshold
 ``` 
+
+## 
