@@ -1,0 +1,7 @@
+[project]
+name = "policyrep"
+version = "0.1.0"
+description = "This project contains two assignments demonstrating concepts in Object-Oriented Design and evaluation metrics in machine learning."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []

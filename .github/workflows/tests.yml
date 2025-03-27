@@ -1,0 +1,29 @@
+name: Run Pytests
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'  # or your preferred version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install uv
+
+      - name: Run Pytest
+        run: |
+          uv run -m assignment2.test_fsm
+          uv run -m assignment1.test_best_threshold
